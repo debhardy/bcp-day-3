@@ -12,20 +12,12 @@
     <p>See Console</p>
 
     <script>
-        var x = 100 //prompt("pick a number");
+       var x = prompt("pick a number");
 
-        if (x < 100) {
-            console.log("wow, that/'s a big number!");
-        }
-
-        else if(x % 2 === 0) {
-            console.log("x is even");
-        }
-
-        else {
-            console.log("x is odd");
-        }
-
+       for(var i = 0; i < x; i++) {
+           console.log("inside loop, i is", i);
+       }
+       
     </script>
 </body>
 </html>
